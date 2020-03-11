@@ -1,7 +1,7 @@
 #container{
   /* familia da fonte*/
   font-family: "tahoma", serif;
-  background-color: #fff000;
+  background-color: #e3e3dd;
   margin-left: 20%;
   margin-right: 20%;
   height: 600px;
@@ -9,11 +9,56 @@
 
 /* estilizando a lista marcada como menu*/
 #menu-vert{
-  background-color: #00ff00;
-  padding: 2px;
+  padding: 0px;
 }
+
 #menu-vert li{
   display: inline;
-  background-color: #0000ff;
-  padding-left: 10px;
+  padding-left: 9%;
+  color:#fff;
+  font-weight: bold;
+}
+
+#menu-vert li a{
+  text-decoration: none;
+  padding: 3%;
+  color:#fff;
+  transition: color 2s;
+}
+
+#menu-vert li a:visited{
+  color:#fff;
+}
+
+#menu-vert li a:link{
+  color:#fff;
+}
+.nav-top{
+  background-color: #797474;
+  border-radius: 5px;
+  padding: 0.7%;
+}
+
+#menu-vert li a:hover{
+  color:#1e1d1d;
+  background-color: #fff;
+}
+h1{
+  padding-left: 30%;
+}
+
+.logo-img1{
+  padding-left: 26%
+}
+
+.logo-img2{
+  padding-left: 37%
+}
+
+.logo-img3{
+  padding-left: 31%
+}
+
+.logo-img4{
+  padding-left: 10%
 }
