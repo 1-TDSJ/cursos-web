@@ -15,22 +15,28 @@
   background-color: #2e78e6;
   padding: 10px;
 }
+#menu-vert ul{
+  display: table;
+  margin-right: auto;
+  margin-left: auto;
+}
 #menu-vert li{
   align-content: center;
   display: inline;
   background-color: #00008c;
-  padding-left: 60px;
-  padding-right: 59px;
+  padding-left: 57px;
+  padding-right: 56px;
   padding-top: 6px;
   padding-bottom: 6px;
   color: white;
   border-radius:3px;
-
-
 }
-h1,h2{
+h1,h2,{
   color: white;
-
+}
+p{
+  color: white;
+  padding-top:40px;
 }
 #menu-vert li a{
   color: white;
@@ -51,4 +57,9 @@ padding: 1px;
 font-weight: bold;
 margin-left: 40px;
 margin-right: 40px;
+}
+.content{
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
