@@ -1,0 +1,49 @@
+
+#container
+  {
+    /* Familia da Fonte */
+    font-family: "Tahoma", serif;
+    background-color: #fff000;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 600px;
+  }
+
+/*Estilizando a lista marcada como menu */
+#menu-vert
+  {
+    padding: 0px;
+  }
+#menu-vert li
+  {
+    display: inline;
+    padding-left: 9%;
+    color: #fff;
+    font-weight: bold;
+  }
+#menu-vert li a
+  {
+    text-decoration: none;
+    padding: 2.8%;
+    color: #fff;
+    transition: color 2s;
+  }
+#menu-vert li a:VISITED
+  {
+    color: #fff;
+  }
+#menu-vert li a:LINK
+  {
+    color:#fff;
+  }
+#menu-vert li a:HOVER
+  {
+    color: #1e1d1d;
+    background-color: #fff;
+  }
+.nav-top
+  {
+    background-color: #1e1d1d;
+    border-radius: 5px;
+    padding: 0.7%;
+  }
