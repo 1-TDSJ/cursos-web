@@ -1,0 +1,48 @@
+#container{
+
+  /* familia da fonte*/
+  font-family: "Tahoma", serif;
+  background-color: #229dff6b;
+  margin-left:20%;
+  margin-right:20%;
+  height: 600px;
+}
+
+/*Estiliznado a lista marcada como menu*/
+#menu-vert{
+  background-color: ##00a6ff;
+  padding: 0px;
+}
+#menu-vert li{
+  display: inline;
+  padding-left: 9%;
+  color:#fff;
+  font-weight: bold;
+}
+
+#menu-vert li a{
+  text-decoration: none;
+  padding: 3%;
+  color:#fff;
+  transition: color 2s;
+}
+/*PSEUDOCLASSES = aLINK e aVISITED*/
+#menu-vert li a:VISITED{
+  color:#fff;
+}
+#menu-vert li a:LINK{
+  color:#fff;
+}
+#menu-vert li a:HOVER{
+ color:#00a6ff;
+ background-color:#fff;
+}
+.nav-top{
+  background-color: #000000;
+  border-radius: 30px;
+  padding: 0.1%;
+}
+#img{
+  margin-left: 32%;
+
+}
