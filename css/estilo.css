@@ -42,3 +42,27 @@
   border-radius: 5px;
   padding: 0.2%;
 }
+
+#img-java{
+  weight: 100px;
+  height: 100px;
+  padding-left: 10px;
+}
+
+#img-csharp{
+  weight: 100px;
+  height: 100px;
+  padding-left: 10px;
+}
+
+#img-python{
+  weight: 100px;
+  height: 100px;
+  padding-left: 10px;
+}
+
+#img-ruby{
+  weight: 100px;
+  height: 100px;
+  padding-left: 10px;
+}
