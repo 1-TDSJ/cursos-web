@@ -2,8 +2,53 @@
 
   /*familia da fonte  */
   font-family: "tahoma", serif;
-  background-color: #fff000;
+  background-color: #00008c;
   margin-left: 20%;
   margin-right: 20%;
   height: 600px;
+  padding: 20px;
+  padding-top: 15px;
+  padding-bottom: 220px;
+}
+/*Estilizando a lista marcada como menu*/
+#menu-vert{
+  background-color: #2e78e6;
+  padding: 10px;
+}
+#menu-vert li{
+  align-content: center;
+  display: inline;
+  background-color: #00008c;
+  padding-left: 60px;
+  padding-right: 59px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  color: white;
+  border-radius:3px;
+
+
+}
+h1,h2{
+  color: white;
+
+}
+#menu-vert li a{
+  color: white;
+  text-decoration: none;
+}
+
+#menu-vert li a:visited {
+  color: white;
+}
+#menu-vert li a:hover{
+  color:#2e78e6;
+}
+.nav-top{
+/*background-color: #0a56c7;*/
+border-radius: 10px;
+border-color: red;
+padding: 1px;
+font-weight: bold;
+margin-left: 40px;
+margin-right: 40px;
 }
