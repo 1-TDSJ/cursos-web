@@ -1,7 +1,6 @@
 .container{
-    background-color: orchid;
-    width: 60%;
-    margin: 50px auto;
+    /* width: 60%;
+    margin: 50px auto; */
     min-height: 500px;
     text-align: center;
 }
@@ -15,6 +14,28 @@
     justify-content: center;
 }
 
+.page-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+    display: flex;
+    margin: 50px;
+}
+
+.logo{
+    width: 20%;
+    margin-right: 30px;
+    max-height: 50px;
+}
+.text-content{
+    width:70%
+}
+
+.logo img{
+    width: 100%;
+}
+
 ul {
     list-style: none;
     display: flex;
@@ -26,4 +47,12 @@ ul {
 a{
     color:aliceblue;
     text-decoration: none;
+}
+
+html{
+    height: 100%;
+    background-color: aliceblue;
+}
+body{
+    margin: 0;
 }
