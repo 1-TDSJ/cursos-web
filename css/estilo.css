@@ -1,0 +1,53 @@
+
+#Container
+{
+  font-family: "Tahoma", serif;
+  background-color:#2efe64;
+  margin-left: 20%;
+  margin-right: 20%;
+  height: 600px;
+  border-radius: 18px;
+}
+
+#menu-vert
+{
+  padding: 0px;
+}
+
+#menu-vert li
+{
+    display: inline;
+    padding-left: 9%;
+    font-weight: bold;
+
+}
+
+#menu-vert li a
+{
+  text-decoration: none;
+  padding: 2.3%;
+  transition: color 10s;
+}
+
+#menu-vert li a:visited
+{
+    color: #1c1c1c;
+}
+
+#menu-vert li a:link
+{
+    color: #1c1c1c;
+}
+
+#menu-vert li a:hover
+{
+  color: #1c1c1c;
+  background-color: #0000FF;
+}
+
+.nav-top
+{
+  background-color:#fe2e64;
+  border-radius: 5px;
+  padding: 0.1%;
+}
