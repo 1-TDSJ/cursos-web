@@ -1,0 +1,9 @@
+#container{
+
+  /*familia da fonte  */
+  font-family: "tahoma", serif;
+  background-color: #fff000;
+  margin-left: 20%;
+  margin-right: 20%;
+  height: 600px;
+}
