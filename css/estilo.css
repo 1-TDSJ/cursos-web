@@ -1,0 +1,50 @@
+#titulo {
+  text-align: center;
+  color: #595959;
+  text-shadow: 2px 2px #e6e6e6;
+}
+#iconeInicio{
+  width: 5%;
+  right: 700px;
+  bottom: 730px;
+  position: absolute;
+}
+#container {
+  font-family: "Tahoma", serif;
+  background-color: #81DAF5;
+  margin-left: 20%;
+  margin-right: 20%;
+  height: 500px;
+  border-radius: 8px;
+}
+#menu-vertical {
+  padding: 0px;
+}
+#menu-vertical li {
+  display: inline;
+  padding-left: 13%;
+  font-weight: bold;
+  font-size: 14px;
+  text-shadow: 3px 3px #e6e6e6;
+}
+#menu-vertical li a {
+    text-decoration: none;
+    padding: 2%;
+    color: #fff;
+    transition: color 1s;
+}
+#menu-vertical li a:VISITED {
+    color: #595959;
+}
+#menu-vertical li a:LINK {
+    color: #595959;
+}
+#menu-vertical li a:HOVER {
+    color: #81DAF5;
+    background-color: #ffffff;
+}
+.nav-top{
+  background-color: #f2f2f2;
+  border-radius: 7px;
+  padding: 0.1%;
+}
