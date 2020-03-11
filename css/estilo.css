@@ -1,0 +1,19 @@
+#container{
+  /* familia da fonte*/
+  font-family: "tahoma", serif;
+  background-color: #fff000;
+  margin-left: 20%;
+  margin-right: 20%;
+  height: 600px;
+}
+
+/* estilizando a lista marcada como menu*/
+#menu-vert{
+  background-color: #00ff00;
+  padding: 2px;
+}
+#menu-vert li{
+  display: inline;
+  background-color: #0000ff;
+  padding-left: 10px;
+}
