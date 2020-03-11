@@ -1,0 +1,29 @@
+.container{
+    background-color: orchid;
+    width: 60%;
+    margin: 50px auto;
+    min-height: 500px;
+    text-align: center;
+}
+
+.container nav{
+    background-color: rgb(39, 39, 39);
+    color: aliceblue;
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+    font-weight: bold;
+}
+a{
+    color:aliceblue;
+    text-decoration: none;
+}
