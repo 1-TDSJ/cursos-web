@@ -1,3 +1,6 @@
+body{
+  background-image: url("../img/laranja.png");
+}
 #container{
   font-family: "Tahoma", serif;
   background-color: #ec9634;
@@ -5,4 +8,57 @@
   margin-right: 20%;
   height: 600px;
 
+
+}
+
+#menu-vert{
+
+  padding: 0px;
+}
+
+#menu-vert li{
+  display: inline;
+
+  padding-left: 11.8%;
+  color: #ec9634;
+  font-weight: bold;
+}
+
+#menu-vert li a {
+  text-decoration: none;
+  padding: 2.6%;
+  color: #ec9634;
+
+
+}
+
+#menu-vert li a:VISITED {
+  color:#ec9634;
+
+}
+#menu-vert li a:LINK {
+  color:#ec9634;
+
+}
+
+#menu-vert li a:HOVER {
+  color:#1e1d1d;
+  background-color: #ec9634 ;
+
+}
+
+
+.nav-top {
+  background-color: #1e1d1d;
+  border-radius: 5px;
+  padding: 0.3%;
+}
+
+h1 {
+  padding-left: 30%;
+}
+
+img {
+  width: 30%;
+  padding-left: 30%;
 }
