@@ -5,7 +5,7 @@
    background-color: #d8d8d8;
    margin-left: auto;
    margin-right: auto%;
-   height: 600px;
+   height: 1000px;
 }
 
 /*Estilizando a lista marcada como menu */
@@ -14,7 +14,7 @@
 }
 #menu-vert li{
   display: inline;
-  padding-left: 15%;
+  padding-left: 12%;
   color: #fff;
   font-weight: bold;
 }
@@ -22,7 +22,9 @@
 #menu-vert li a{
   text-decoration: none;
   color: #fff;
-  transition: color 1s;
+  font-size: 30px;
+  transition: color 1s, font-size 1s;
+  padding: 1%;
 }
 
 #menu-vert li a:VISITED {
@@ -36,12 +38,16 @@
 #menu-vert li a:HOVER {
   color: #00000087;
   background-color: #fff;
-  padding: 1.3%;
-  border-radius: 5px
+  border-radius: 5px;
+  font-size: 30px;
 }
 
 .nav-top{
   background-color: #00000087;
   border-radius: 5px;
   padding: 0.012%;
+}
+
+.img-java{
+  width: 20%
 }
