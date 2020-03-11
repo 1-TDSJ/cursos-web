@@ -42,7 +42,7 @@
 #menu-vert li a:hover
 {
   color: #1c1c1c;
-  background-color: #0000FF;
+  background-color: #fff;
 }
 
 .nav-top
@@ -50,4 +50,28 @@
   background-color:#fe2e64;
   border-radius: 5px;
   padding: 0.1%;
+}
+
+#logo-ruby
+{
+  height: 150px;
+  width: 250px;
+}
+
+#logo-csharp
+{
+  height: 30%;
+  width: 30%;
+}
+
+#logo-python
+{
+  height:25%;
+  width:25%;
+}
+
+#logo-java
+{
+  width: 30%;
+  height: 30%;
 }
