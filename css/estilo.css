@@ -6,7 +6,7 @@
   background-color: #cacac6;
   margin-left: 15%;
   margin-right: 15%;
-  height: 942px;
+  height: 100%;
 }
 
   /* Estilizando a lista marcada como menu*/
@@ -42,6 +42,7 @@
     border-radius:5px;
     padding:0.1%
   }
+  /* Classa para colocar foto */
 .JavaIMG {
   padding-left:  34%;
   width: 26%;
@@ -52,12 +53,17 @@
   width: 22%;
   height: 2%;
 }
+.Dev {
+  padding-left: 18%;
+  width: 68%;
+  height: 2%;
+}
 
 h1 {
   padding-left: 32%;
 }
+
 p {
-  float:
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 8%;
+  padding-right: 8%;
 }
