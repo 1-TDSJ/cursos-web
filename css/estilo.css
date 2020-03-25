@@ -1,5 +1,13 @@
+
+@font-face {
+  font-family: "Standout-Regular";
+  src: local(Standout-Regular), url(../fonts/Standout-Regular.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css?family=Asap&display=swap');
+
 #paginaCompleta {
-  font-family: "Tahoma", serif;
+  font-family: 'Asap', sans-serif;
   background-color: #81DAF5;
   margin-left: 18%;
   margin-right: 18%;
@@ -39,6 +47,7 @@
   color: #81DAF5;
 }
 #titulo {
+  font-family: "Standout-Regular", serif;
   font-size: 160%;
   text-align: center;
   color: #595959;
@@ -50,11 +59,12 @@
   color: #595959;
   text-shadow: 2px 2px #e6e6e6;
 }
-#imagem {
-  width: 15%;
-  float: right;
+
+.img-logo img {
+  width: 10%;
 }
-#paragrafos {
+
+#paragrafo {
   color: #2b2b2b;
   font-style: normal;
   display: flex;
