@@ -1,8 +1,15 @@
+@@font-face {
+  font-family: "Standout-Regular";
+  src: local(Standout-Regular), url(../fonts/Standout-Regular.ttf);
+}
+
+@@import url('https://fonts.googleapis.com/css?family=Asap&display=swap');
+
 
 #container {
 
   /* Familia da Fonte */
-  font-family: "Tahoma", serif;
+  font-family: "Asap", sans-serif;
   background-color: #cacac6;
   margin-left: 15%;
   margin-right: 15%;
@@ -59,11 +66,22 @@
   height: 2%;
 }
 
-h1 {
+/** h1 {
   padding-left: 32%;
-}
+} **/
 
 p {
   padding-left: 8%;
   padding-right: 8%;
+}
+
+#tit-page {
+  background-color: #1e1d1d;
+  color: #fff;
+  position: relative;
+  text-align: center;
+  border-radius: 5px;
+  bottom: 3.6%;
+  font-family: "Standout-Regular", serif;
+
 }
