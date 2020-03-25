@@ -1,5 +1,10 @@
+@font-face {
+  font-family: "Baloo2-Regular";
+  src:local(Baloo2-Regular),url(../fonts/Baloo2-Regular.ttf);
+}
+
 #container{
-  font-family: "Tahoma", serif;
+  font-family: 'Lato', sans-serif;
   background-color: #5F56E4;
   margin-left: 20%;
   margin-right: 20%;
@@ -39,7 +44,6 @@
 
 .nav-top{
   background-color: #1e1d1d;
-  border-radius: 5px;
   padding: 0.2%;
 }
 
@@ -72,7 +76,18 @@
   padding-right: 20px
 }
 
+#cor2{
+  color: #ccff99;
+}
+
 #he1{
-  padding-left: 33%;
-  padding-right: 33%;
+  background-color: #f4cf3d;
+  position: relative;
+  text-align: center;
+  bottom: 3.6%;
+  font-family: 'Baloo2-Regular', serif;
+}
+
+.img-logo img{
+  width: 7%;
 }
