@@ -1,0 +1,71 @@
+
+@font-face {
+  font-family: "Luminari";
+  src: local(Luminari), url(../fonts/Luminari.ttf);
+
+}
+
+@import url('https://fonts.googleapis.com/css?family=Sen&display=swap');
+
+#container{
+
+  /* Familia da Fonte */
+  font-family: 'Sen', sans-serif;
+  background-color: #e3e3dd;
+  margin-left: 20%;
+  margin-right: 20%;
+  height: 600px;
+}
+
+/*Estilizando a lista marcada como menu */
+#menu-vert{
+    padding: 0px;
+}
+#menu-vert li{
+  display: inline;
+  padding-left: 9%;
+  color:#fff;
+  font-weight: bold;
+
+}
+
+#menu-vert li a{
+  text-decoration: none;
+  padding: 4.1%;
+  padding-top: 1.9%;
+  transition: color 2s;
+}
+
+#menu-vert li a:VISITED{
+  color:#ff5733;
+}
+#menu-vert li a:LINK{
+  color:#ff5733;
+}
+#menu-vert li a:HOVER{
+  color:#fff;
+  background-color: #ff5733;
+}
+
+.nav-top{
+  background-color: #1e1d1d;
+  /*border-radius: 5px;*/
+  padding: 0.1%;
+}
+
+.img-logo img{
+  width: 9%;
+}
+
+#tit-page{
+  background-color: #1e1d1d;
+  color: #fff;
+  position: relative;
+  right: 0;
+  text-align: center;
+  bottom: 3.6%;
+  padding-top: 1%;
+  border-radius: 0px 0px 5px 5px;
+  height: 10%;
+  font-family: 'Sen', sans-serif;
+}
