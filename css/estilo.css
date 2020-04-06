@@ -5,6 +5,7 @@
   background-color: #e3e3dd;
   margin-left: 20%;
   margin-right:20%;
+  text-align: center;
   height:1000px;
 }
 
@@ -20,7 +21,7 @@
   font-weight: bold;
 }
 #menu-vert li a{
-  text-decoration:none;
+  text-decoration: none;
   padding: 3%;
   color: #fff;
   transition: color 2s;
@@ -45,6 +46,20 @@
   padding: 0.1%;
 }
 
-.img-logo{
-  width: 20%;
+.img-logol{
+  width: 35%;
+}
+
+.img-logot img{
+  width: 25%;
+}
+
+#tit-page{
+  background-color: #1e1d1d;
+  color:#fff;
+  position: relative;
+  text-align: center;
+  border-radius: 5px;
+  bottom: 3.6%;
+  font-family: "Standout-Regular",serif;
 }
